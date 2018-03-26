@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Pup Crawl!</title>
+
+	<!-- Linking Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous">
+
+	<!-- Linking jQuery -->
+	<script src="https://code.jquery.com/jquery.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	 crossorigin="anonymous"></script>
+
+	 <!-- Linking CSS -->
+	 <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+	 <!-- Firebase Reference-->
+	<script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+	
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<!DOCTYPE html>
+			<form>
+				Dog Name:
+				<br>
+				<input type="text" name="dog_name" value="">
+				<br> Owner Name:
+				<br>
+				<input type="text" name="owner_name" value="">
+				<br> Dog Comment:
+				<br>
+				<input type="text" name="dog_comment" value="">
+				<br> Dog Photo:
+				<br>
+				<input type="text" name="dog_photo_url" value="">
+				<input value="upload" type="file" class="form-control-file" id="dog_file">
+				<progress value="0" max="100" id="uploader">0%</progress>
+				<br>
+				<br>
+				<input type="submit" value="Submit" id="submit">
+				<br>
+
+				<input type="submit" value="como" id="comoSubmit">
+				<input type="submit" value="minnehaha" id="minnehahaSubmit">
+				<input type="submit" value="bootcamp" id="bootcampSubmit">
+				<input type="submit" value="doghouse" id="doghouseSubmit">
+				
+			</form>
+
+		</div>
+	</div>
+
+	
+	<!--Project specific Javascript -->
+	<script src="assets/js/dogs.js"></script>
+
+</body>
+
+</html>
