@@ -1,6 +1,6 @@
 -- Create the database doggo_db and specified it for use.
-CREATE DATABASE doggo_db;
-USE doggo_db;
+CREATE DATABASE dogs_db;
+USE dogs_db;
 
 -- Create the table dog and park
 CREATE TABLE dog

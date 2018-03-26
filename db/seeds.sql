@@ -1,6 +1,6 @@
 -- Insert a set of records.
 
-USE doggo_db;
+USE dogs_db;
 
 INSERT INTO dogs (dog_name, owner_name, dog_comment, dog_photo_url, createdAt, updatedAt) 
 VALUES ('Whitney', 'Susan Marek', 'Whitney loves the dog park!', 'XXX', '2018-03-17','2018-03-17'),
@@ -10,7 +10,7 @@ VALUES ('Whitney', 'Susan Marek', 'Whitney loves the dog park!', 'XXX', '2018-03
 
 
 
-USE doggo_db;
+USE dogs_db;
 
 INSERT INTO parks (park_name, createdAt, updatedAt) VALUES ('Como Dog Park', '2018-03-17','2018-03-17'), ('Minnehaha Dog Park', '2018-03-17','2018-03-17'), ('Bootcamp Dog Park', '2018-03-17','2018-03-17'), ('Doghouse', '2018-03-17','2018-03-17')
 

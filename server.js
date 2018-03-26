@@ -4,7 +4,7 @@ var db = require("./models");
 
 var routes = require("./controllers/dog_controller.js")
 
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 8000;
 
 var app = express();
 

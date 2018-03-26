@@ -1,15 +1,15 @@
 var test = ["dogs.js is connected"];
 console.log(test);
 
+
 // Initialize Firebase
-//========================================================================
 var config = {
-    apiKey: "AIzaSyCq24OblNHStJVOzNsdYFoaMVfQQF5PVn0",
-    authDomain: "pupcrawl-fea80.firebaseapp.com",
-    databaseURL: "https://pupcrawl-fea80.firebaseio.com",
-    projectId: "pupcrawl-fea80",
-    storageBucket: "pupcrawl-fea80.appspot.com",
-    messagingSenderId: "142821736229"
+	apiKey: "AIzaSyBthFGsfRlmu3xGz2D9Kzls4Le5KspetjY",
+	authDomain: "puppy-app-7a0f7.firebaseapp.com",
+	databaseURL: "https://puppy-app-7a0f7.firebaseio.com",
+	projectId: "puppy-app-7a0f7",
+	storageBucket: "puppy-app-7a0f7.appspot.com",
+	messagingSenderId: "1071656293054"
 };
 firebase.initializeApp(config);
 
